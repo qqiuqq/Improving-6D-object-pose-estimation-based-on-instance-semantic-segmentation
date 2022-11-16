@@ -3,9 +3,11 @@
 The python environment is the same as [this] (https://github.com/ethnhe/PVN3D)
 
 2. Download datasets:
+
 LineMod:Download the preprocessed LineMOD dataset from here (refer from DenseFusion). Unzip it and link the unzipped
-`linemod_prepocessed/` to 
-YCB-Video:Download the YCB-Video Dataset from PoseCNN. Unzip it and link the unzipped `YCB_Video_Dataset` to 
+`linemod_prepocessed/` to `/Pointcloud_feature/datasets/linemod/' (`Instance/instance_module/datasets/linemod/`)
+
+YCB-Video:Download the YCB-Video Dataset from PoseCNN. Unzip it and link the unzipped `YCB_Video_Dataset` to `/Pointcloud_feature/datasets/ycb/`(`Instance/instance_module/datasets/ycb/`)
 
 3.Run the model:
 ```
